@@ -33,7 +33,7 @@ int main(){
     printf("Affected systems: %d\n", Number_of_affected_systems);
     printf("Downtime in hours: %.2f hours\n", Downtime_in_hours);
 
-    total_cost = (Number_of_affected_systems * Estimated_recovery_cost) + (Downtime_in_hours * 100);
+    total_cost = (Number_of_affected_systems * Estimated_recovery_cost);
     printf("Total estimated cost of the incident: %d\n", total_cost);
 
     return 0;
